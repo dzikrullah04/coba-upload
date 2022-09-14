@@ -1,0 +1,138 @@
+@font-face {
+    font-family: rubik;
+    src: url(RubikMarkerHatch-Regular.ttf);
+}
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap-banner {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.banner {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.tittle {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'rubik';
+    font-size: 50;
+
+}
+
+.sukarno {
+    padding-top: 50px ;
+    padding-left: 75px;
+    /* position: absolute; */
+
+}
+
+.konten1 {
+    display: flex;
+    padding-top: 50px;
+    
+}
+
+.txt1-1 {
+    /* position: absolute; */
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.txt1-2 {
+    /* position: absolute; */
+    padding-top: 10px;
+    padding-left: 35px;
+
+}
+
+.txt1-3 {
+    /* position: absolute; */
+    padding-top: 10px;
+    padding-left: 35px;
+
+}
+
+.nama1 {
+    padding-left: px;
+    /* position: absolute; */
+}
+
+.konten2 {
+    padding-top: 50px;
+    padding-left: 75px;
+    display: flex;
+}
+
+.nama2 {
+
+}
+
+.txt2-1 {
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+.txt2-2 {
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.txt2-3 {
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.hatta {
+    padding-top: 50px;
+}
+
+nav {
+    background-color: rgba(240, 30, 30, 0.2);
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav:hover {
+    background-color: rgba(240, 30, 30, 0.7);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    border-radius: 15px;
+    padding: px;
+}
+
+li {
+
+    padding: 10px;
+}
+
+a {
+    border: rgb(0,0 ,0) 3px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
+    color: #222;
+
+}
